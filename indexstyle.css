@@ -1,0 +1,97 @@
+body {
+    margin: 30px;
+    padding: 20px;
+    background-color: #000000; /* Change this to your desired background color */
+}
+
+.education-class {
+    margin-left: 60px;
+    margin-top  : 5px;
+    margin-bottom: 5px;
+}
+
+.experience-class {
+    margin-left: 60px;
+    margin-top  : 5px;
+    margin-bottom: 5px;
+}
+
+.header {
+    color: white;
+    padding-left: 30%;
+}
+
+.para {
+    color: white;
+    padding: 10;
+    padding-left: 30%;
+    height: 0;
+    padding-top: 30px;
+}
+
+.wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 100px;
+    width: 200px;
+}
+
+#slide {
+    position: absolute;
+    left: -800px;
+
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 1s;
+    animation: slide 0.5s forwards;
+    animation-delay: 1s;
+}
+
+#slidep1 {
+    position: absolute;
+    top: 13px;
+    left: -800px;
+
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 1.5s;
+    animation: slide 0.5s forwards;
+    animation-delay: 1.5s;
+}
+
+#slidep2 {
+    position: absolute;
+    left: -600px;
+    top: 57px;
+
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+}
+
+#slidep3 {
+    position: absolute;
+    left: -600px;
+    top: 57px;
+
+    -webkit-animation: slide2 0.5s forwards;
+    -webkit-animation-delay: 2.5s;
+    animation: slide2 0.5s forwards;
+    animation-delay: 2.5s;
+}
+
+@-webkit-keyframes slide2 {
+    100% { left: 75px; }
+}
+
+@keyframes slide2 {
+    100% { left: 75px; }
+}
+
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
